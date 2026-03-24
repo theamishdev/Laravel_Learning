@@ -3,6 +3,10 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Cookie; 
 
 
+
+
+Route::view('/prac1','prac1');
+Route::view('/fun','inbuilt_fun');
 Route::get('/aboutus', function () {
     return view('about');
 })->name('about');

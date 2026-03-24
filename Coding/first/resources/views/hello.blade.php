@@ -12,20 +12,20 @@
     <h1>Passing Data to View</h1>
     <hr>
     <h2>1. Using Associative Array</h2>
-    <p>Name: {{ $name ?? 'Amish' }}</p>
-    <p>ID: {{ $id ?? '555' }}</p>
-    <p>Address: {{ $address ?? 'LPU' }}</p>
+    <p>Name: {{ $name ?? 'none' }}</p>
+    <p>ID: {{ $id ?? 'None' }}</p>
+    <p>Address: {{ $address ?? 'None' }}</p>
     <hr>
     <h2>2. Using with() method</h2>
-    <p>Name: {{ $name_with ?? 'Amish' }}</p>
+    <p>Name: {{ $withName ?? 'None' }}</p>
     <hr>
     <h2>3. Using compact() method</h2>
-    <p>City: {{ $city ?? 'Phagwara' }}</p>
+    <p>City: {{ $city ?? 'None' }}</p>
     <hr>
     <h2>4. Using withName() method</h2>
-    <p>Name: {{ $withName ?? 'Amish' }}</p>
-    <p>ID: {{ $withId ?? '555' }}</p>
-    <p>Address: {{ $withAddress ?? 'Phagwara' }}</p>
+    <p>Name: {{ $with_Name ?? 'None' }}</p>
+    <p>ID: {{ $withId ?? 'None' }}</p>
+    <p>Address: {{ $withAddress ?? 'None' }}</p>
 </body>
 </html>
 
